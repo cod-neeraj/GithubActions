@@ -19,7 +19,7 @@ jobs:
           java-version: 17
 
       - name: Compile Java
-        run: javac Main.java
+        run: javac main.java
 
       - name: Run Java Program
-        run: java Main
+        run: java main
